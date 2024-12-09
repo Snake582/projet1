@@ -149,7 +149,7 @@ main {
 }
 
 .product-image {
-    width: 100%;
+    width: 70%;
     max-width: 250px;
     border-radius: 10px;
 }
@@ -186,6 +186,7 @@ main {
     gap: 10px;
     max-width: 200px;
     border-radius: 50px 90px 50px 90px;
+    border: 8px solid rgb(145, 145, 145);
 }
 h2 {
     text-align: center;
