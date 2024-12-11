@@ -506,12 +506,18 @@ footer{
     padding: 30px;
     margin: 30px;
     width: 100%;
-    background-color: #555;
+    background-color: rgb(41, 39, 39);
+}
+footer p{
+    color: #fff;
+}
+h5{
+    color: white;
 }
 .foot{
     display: flex;
     text-align: center;
-    background-color: #ddd;
+    background-color: #8a7f7f;
 }
 @media (max-width: 768px) {
     header {
