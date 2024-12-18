@@ -547,10 +547,23 @@ h5{
     .right-column {
         padding: 20px;
     }
-    .hero{
-       /*  flex-direction: column;
-        align-items: left; */
-        width: 200px;
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero-content {
+        flex: 2;
+    }
+
+    .hero-image {
+        flex: 2;
+        display: block;
+        justify-content: flex-start;
+    }
+
+    .hero-image img {
+        max-width: 70%;
     }
     .image-row{
         flex-direction: column;
